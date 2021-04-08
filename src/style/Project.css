@@ -1,0 +1,28 @@
+
+
+ div .top {
+    margin: 50px 0 50px 0 !important;
+}
+
+.card {
+    background: rgba(0,0,0, 0.01) !important;
+    text-align: center;
+}
+
+.card:hover {
+    background: rgba(0,0,0, 0.5) !important;
+    transform: scale(1.1);
+}
+
+.card img{
+    height: 250px;
+}
+
+
+
+.card-bottom{
+    position: absolute;
+    justify-content:flex-end;
+    bottom: -4px;
+    
+}

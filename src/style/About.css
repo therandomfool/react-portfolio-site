@@ -1,0 +1,53 @@
+.top {
+    color: ghostwhite;
+}
+
+
+.aboutMe img {
+    width: 250px;
+    height: 250px;
+    opacity: .8;
+    border-radius: 50%;
+    float: left;
+    border: 2px solid ghostwhite;
+    shape-outside: inset(1% round 50%);
+    shape-margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutMe p {
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+    font-size: 19px;
+}
+
+#readOpac{
+    padding: 15px;
+    background: rgba(0,0,0, 0.01) !important;
+    border-radius: 6.9px;
+
+}
+
+#readOpac:hover{
+    background: rgba(0,0,0, 0.21) !important;
+}
+
+.btn-link {
+    display: block;
+    margin: auto auto;
+}
+
+.btn-link button {
+    width: 100px !important;
+    padding: 9px;
+    margin: 20px;
+}
+
+.btn-link button:hover {
+    /* transform: scale(1.069);
+    transition: all .4s ease-in-out; */
+    background-color: red;
+    /* border: 5px solid blue !important; */
+}
