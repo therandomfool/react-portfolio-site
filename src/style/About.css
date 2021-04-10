@@ -2,14 +2,13 @@
     color: ghostwhite;
 }
 
-
 .aboutMe img {
     width: 250px;
     height: 250px;
-    opacity: .8;
+    opacity: 1;
     border-radius: 50%;
     float: left;
-    border: 2px solid ghostwhite;
+    padding: 10px ;
     shape-outside: inset(1% round 50%);
     shape-margin: 10px;
     margin-right: 10px;
@@ -17,21 +16,26 @@
 }
 
 .aboutMe p {
-    line-height: 1.6;
+    line-height: 1.4;
     text-align: justify;
-    margin: 0;
-    font-size: 19px;
+    /* margin: 0; */
+    font-size: 23px;
+}
+
+.aboutMe h3 {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.aboutMe h5 {
+    letter-spacing: 2px;
 }
 
 #readOpac{
     padding: 15px;
-    background: rgba(0,0,0, 0.01) !important;
+    background: rgba(0,0,0, 0.4) !important;
     border-radius: 6.9px;
-
-}
-
-#readOpac:hover{
-    background: rgba(0,0,0, 0.21) !important;
 }
 
 .btn-link {
@@ -41,13 +45,25 @@
 
 .btn-link button {
     width: 100px !important;
+    height: 100px;
     padding: 9px;
-    margin: 20px;
+    margin: 80px 0;
 }
 
 .btn-link button:hover {
-    /* transform: scale(1.069);
-    transition: all .4s ease-in-out; */
-    background-color: red;
-    /* border: 5px solid blue !important; */
+    background-color: blue;
+    border: 1px solid gold !important;
+    animation: flip-animation .69s alternate ease-in-out;
+    display: inline-block;
 }
+
+@keyframes flip-animation {
+    0% {
+        transform: rotate(0deg);
+    }  
+    100% {
+        transform: rotate(359deg);
+        
+    }
+}
+

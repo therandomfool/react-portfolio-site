@@ -1,0 +1,80 @@
+.behave{
+    margin-top: 69px;
+    display: flex;
+    flex-direction: row;
+}
+
+.behave p{
+    color: ghostwhite;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.behave img {
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.behave img{
+        animation: pulse-animation 4s infinite;
+        display: inline-block; 
+}
+   
+@keyframes pulse-animation {
+        0% {
+            border: 2.3px inset green;
+        }
+        30%{
+            border: 2.3px inset red;
+        }
+        50%{
+            border: 2.3px inset gold;
+        }
+        80%{   
+            border: 2.3px inset blue;
+        }
+        100% {
+            border: 2.3px inset orange;
+
+        }
+    }
+
+.behave p{
+        animation: text-animation 9s infinite;
+        display: inline-block; 
+}
+
+@keyframes text-animation {
+    0% {
+        color: green !important;
+    }
+    30%{
+        color: red ;
+    }
+    50%{
+        color: gold ;
+    }
+    80%{   
+        color: blue ;
+    }
+    100% {
+        color: ghostwhite ;
+
+    }
+}
+
+
+.bRow1{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+.bRow2{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
