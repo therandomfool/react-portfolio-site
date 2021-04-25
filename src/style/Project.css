@@ -9,6 +9,7 @@
      text-align: center;
      font-weight: 500;
      display: block !important;
+     height: 469px;
  }
 
  .card:hover {
@@ -53,7 +54,8 @@
 
  .card-body ul {
      text-align: start;
-     font-size: 17px;
+     font-size: 12px;
+     font-weight: bolder;
  }
 
  .mNp {
@@ -61,5 +63,5 @@
  }
 
  .card-title {
-     font-size: 22px;
+     font-size: 16px;
  }

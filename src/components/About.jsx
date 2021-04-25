@@ -1,7 +1,7 @@
 
 import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
 
-import { IoBook,IoRestaurantSharp } from "react-icons/io5";
+import { IoBook, IoRestaurantSharp } from "react-icons/io5";
 
 
 

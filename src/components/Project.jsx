@@ -27,7 +27,7 @@ const Project = () => {
 
               <div className='card-body'>
                 <h5 className='card-title'>Brushr Homebrewer Site</h5>
-                <ul>
+                <ul >
                   <li>Online microbrew repository</li>
                   <li>MySql database / Project DBA</li>
                   <li>MVC Design w/ Spring Boot</li>
@@ -53,14 +53,14 @@ const Project = () => {
                   <li>Java > JavaScript > Angular > MySql</li>
                 </ul>
                 <p className='card-bottom text-white'>
-                  <a className='text-white'  target="_blank" rel="noreferrer" href="https://github.com/therandomfool/FinalProject">
+                  <a className='text-white' target="_blank" rel="noreferrer" href="https://github.com/therandomfool/FinalProject">
                     <FaGithubAlt />
                   </a>
                 </p>
               </div>
             </div>
             <div className='card border-white'>
-            <a target="_blank" rel="noreferrer" href="http://18.224.85.94:8080/ReservationTracker"><img src={Reserve} className='card-img-top' alt='...' /></a>
+              <a target="_blank" rel="noreferrer" href="http://18.224.85.94:8080/ReservationTracker"><img src={Reserve} className='card-img-top' alt='...' /></a>
               <div className='card-body'>
                 <h5 className='card-title'>Restaurant Reservation App</h5>
                 <ul>
@@ -70,7 +70,7 @@ const Project = () => {
                   <li>Java > JavaScript > Angular > MySql</li>
                 </ul>
                 <p className='card-bottom text-white'>
-                  <a className='text-white' target="_blank" rel="noreferrer"  href="https://github.com/therandomfool/EventTrackerProject" >
+                  <a className='text-white' target="_blank" rel="noreferrer" href="https://github.com/therandomfool/EventTrackerProject" >
                     <FaGithubAlt />
                   </a>
                 </p>
@@ -84,17 +84,18 @@ const Project = () => {
           <h1>JAVASCRIPT / REACT</h1>
           <div className='card-deck row mt-3'>
             <div className='card border-white'>
-            <a target="_blank" rel="noreferrer" href="https://amazing-snyder-723a73.netlify.app/"><img src={Game} className='card-img-top' alt='...' /></a>
-              
+              <a target="_blank" rel="noreferrer" href="https://amazing-snyder-723a73.netlify.app/"><img src={Game} className='card-img-top' alt='...' /></a>
+
               <div className='card-body'>
-                <h5 className='card-title'>Game Machine</h5>
-                <p className='card-text'>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-              </p>
+                <h5 className='card-title'>Project & Team Tracker</h5>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>Java > JavaScript > React > PostSql</li>
+                </ul>
                 <p className='card-bottom text-white'>
-                <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Game-Machine'>
+                  <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Game-Machine'>
                     <FaGithubAlt />
                   </a>
                 </p>
@@ -102,7 +103,7 @@ const Project = () => {
             </div>
             <div className='card border-white'>
               <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/Icon-Background-Animation-CSS"><img src={Icon} className='card-img-top' alt='...' /></a>
-              
+
               <div className='card-body'>
                 <h5 className='card-title'>Icon Background</h5>
                 <p className='card-text'>
@@ -126,8 +127,8 @@ const Project = () => {
                   than the first to show that equal height action.
               </p>
                 <p className='card-bottom text-white'>
-                  <a className='text-white' target="_blank" rel="noreferrer" 
-                  href='https://github.com/therandomfool/react-portfolio-site'>
+                  <a className='text-white' target="_blank" rel="noreferrer"
+                    href='https://github.com/therandomfool/react-portfolio-site'>
                     <FaGithubAlt />
                   </a>
                 </p>
@@ -142,14 +143,15 @@ const Project = () => {
           <div className='card-deck row mt-3'>
             <div className='card border-white'>
               <a target="_blank" rel="noreferrer" href="https://upbeat-gates-700f92.netlify.app/"><img src={GBoy} className='card-img-top' alt='...' /></a>
-              
+
               <div className='card-body'>
                 <h5 className='card-title'>Tetris Handheld</h5>
-                <p className='card-text'>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>Java > JavaScript > React > PostSql</li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Gameboy-Tetris-P5.JS'>
                     <FaGithubAlt />
@@ -159,13 +161,15 @@ const Project = () => {
             </div>
             <div className='card border-white'>
               <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/Mandlebrot-Set-With-P5.JS-Grayscale"><img src={Mandle} className='card-img-top' alt='...' /></a>
-              
+
               <div className='card-body'>
                 <h5 className='card-title'>Mandlebrot Set Grayscale</h5>
-                <p className='card-text'>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>Java > JavaScript > React > PostSql</li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Mandlebrot-Set-With-P5.JS-Grayscale'>
                     <FaGithubAlt />
@@ -175,14 +179,15 @@ const Project = () => {
             </div>
             <div className='card border-white'>
               <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/3D-Recursive-Trees-P5.JS"><img src={Tree} className='card-img-top' alt='...' /></a>
-              
+
               <div className='card-body'>
                 <h5 className='card-title'>3D Recursive Trees</h5>
-                <p className='card-text'>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer content
-                  than the first to show that equal height action.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>Java > JavaScript > React > PostSql</li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href="https://github.com/therandomfool/3D-Recursive-Trees-P5.JS">
                     <FaGithubAlt />
@@ -199,7 +204,7 @@ const Project = () => {
           <div className='card-deck row mt-3'>
             <div className='card border-white '>
               <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/image-Hoover-Effects-3D-CSS"><img src={Hover} className='card-img-top' alt='...' /></a>
-              
+
               <div className='card-body'>
                 <h5 className='card-title'>3D image hover</h5>
                 <p className='card-text'>
@@ -214,7 +219,7 @@ const Project = () => {
             </div>
             <div className='card border-white'>
               <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/CSS-Glassmorphism-Clock"><img src={Clock} className='card-img-top' alt='...' /></a>
-              
+
               <div className='card-body'>
                 <h5 className='card-title'>Glassmorphism Clock</h5>
                 <p className='card-text'>
@@ -230,7 +235,7 @@ const Project = () => {
             </div>
             <div className='card border-white'>
               <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/Subscribe-To-Newsletter-Button-CSS"><img src={Email} className='card-img-top' alt='...' /></a>
-              
+
               <div className='card-body'>
                 <h5 className='card-title'>Subscribe Button Animation</h5>
                 <p className='card-text'>

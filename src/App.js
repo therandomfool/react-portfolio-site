@@ -15,9 +15,9 @@ import Behave from './components/Behave';
 function App() {
   return (
     <>
-    <Navbar />,
-    <About />,
-    <Behave />,
+    <Navbar />
+    <About />
+    <Behave />
     <Project />
     </>
   );
