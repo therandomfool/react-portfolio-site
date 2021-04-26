@@ -17,7 +17,7 @@ const About = () => {
   return (
     <div className='top container-fluid'>
       <div className='row'>
-        <div className='aboutMe col-8 mx-5 mt-5'>
+        <div className='aboutMe col-sm-10 col-lg-8 mx-5 mt-5'>
           <h3 className='my-4'>Michael Degginger's Story <span>so far...</span></h3>
           <img src={MD} alt="" />
           <div id='readOpac'>
@@ -50,7 +50,7 @@ const About = () => {
             
           </button>
 
-          <button className='rounded border border-white btn btn-outline-light  text-white'>
+          <button className='rounded border border-white btn btn-outline-light text-white'>
             <a className='iconBtn text-white' target="_blank" rel="noreferrer" href={MDResume}>
             <IoBook size={29} /></a>
             

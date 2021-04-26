@@ -12,7 +12,6 @@ div .top {
     word-wrap: break-word;
     hyphens: auto;
     margin: 0 30px 0 30px;
-    
 }
 
 .card:hover {
@@ -24,7 +23,7 @@ div .top {
 
 .card img {
     height: 175px;
-    background-size:auto;
+    background-size: auto;
 }
 
 .card-bottom {
@@ -70,4 +69,20 @@ div .top {
 
 .card-title {
     font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        height: 200px;
+    }
+    .top h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .card-body ul {
+        display: none;
+    }
+    .card img {
+        height: 100px;
+    }
 }

@@ -67,3 +67,31 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .top {
+        display: block;
+    }
+    .aboutMe{
+        width: 200px;
+    }
+
+    div .btn-link {
+        left: -50px;
+    }
+   
+    .aboutMe h5,
+    .aboutMe p{
+        font-size: 15px;
+    }
+    #readOpac{
+        /* box-sizing: content-box !important; */
+       
+        padding: 10px;
+    }
+    .aboutMe img {
+        width: 150px;
+        height: 150px;
+       
+    }
+    
+}

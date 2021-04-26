@@ -108,9 +108,9 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>Icon Background</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
+                  <li>Background using font-awesome icons</li>
+                  <li>Random Icons moving in lines</li>
+                  <li>Gold light with tail on cursor move </li>
                   <li>CSS > JavaScript </li>
                 </ul>
                 <p className='card-bottom text-white'>
@@ -126,10 +126,10 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>React Personal Portfolio</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
-                  <li>CSS > JavaScript </li>
+                  <li>Personal Portfolio</li>
+                  <li>Full size scrolling background image</li>
+                  <li>Use of React Icons</li>
+                  <li>CSS > JavaScript > React > Bootstrap</li>
                 </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer"
@@ -152,10 +152,10 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>Tetris Handheld</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
-                  <li>Java > JavaScript > React > PostSql</li>
+                  <li>Fashioned after handheld console</li>
+                  <li>Playing basic Tetris</li>
+                  
+                  <li> JavaScript > P5.JS</li>
                 </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Gameboy-Tetris-P5.JS'>
@@ -170,10 +170,9 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>Mandlebrot Set Grayscale</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
-                  <li>Java > JavaScript > React > PostSql</li>
+                  <li>Mathematical Visualization of Mandlebrot set</li>
+                  <li>Use of Greyscal coloring</li>
+                  <li> JavaScript > P5.JS</li>
                 </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Mandlebrot-Set-With-P5.JS-Grayscale'>
@@ -188,10 +187,10 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>3D Recursive Trees</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
-                  <li>Java > JavaScript > React > PostSql</li>
+                  <li>Recursive function calls to build 3d trees</li>
+                  <li>New tree built every 10 calls</li>
+                  
+                  <li> JavaScript > P5.JS</li>
                 </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href="https://github.com/therandomfool/3D-Recursive-Trees-P5.JS">
@@ -213,9 +212,7 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>3D image hover</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
+                  
                   <li>CSS > JavaScript </li>
                 </ul>
                 <p className='card-bottom text-white'>
@@ -231,9 +228,7 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>Glassmorphism Clock</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
+                  
                   <li>CSS > JavaScript </li>
                 </ul>
                 <p className='card-bottom text-white'>
@@ -249,9 +244,7 @@ const Project = () => {
               <div className='card-body'>
                 <h5 className='card-title'>Subscribe Button Animation</h5>
                 <ul>
-                  <li>Dashboard for viewing Teams and Projects</li>
-                  <li>Full CRUD implementation PostgreSql DB</li>
-                  <li>Spring Data JPA Entities</li>
+                  
                   <li>CSS > JavaScript </li>
                 </ul>
                 <p className='card-bottom text-white'>
