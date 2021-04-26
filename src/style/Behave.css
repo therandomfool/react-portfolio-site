@@ -1,15 +1,13 @@
 .behave{
     margin-top: 69px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
+    
     text-align: center;
 }
 
 .behave p{
     color: ghostwhite;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 29px;
 }
 
 .behave img {
@@ -17,8 +15,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    display: flex;
-    flex-direction: row;
+   
 }
 
 .behave img{
