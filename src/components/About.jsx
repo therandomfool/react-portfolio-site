@@ -1,6 +1,6 @@
 
 import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
-
+import { MdEmail } from "react-icons/md";
 import { IoBook, IoRestaurantSharp } from "react-icons/io5";
 
 
@@ -64,6 +64,12 @@ const About = () => {
           <button className='rounded border border-white btn btn-outline-light  text-white'>
              <a className='iconBtn text-white' target="_blank" rel="noreferrer" href='https://www.myfoodielove.com/'>
             <IoRestaurantSharp size={29} />
+            </a>
+
+          </button>
+          <button className='rounded border border-white btn btn-outline-light  text-white'>
+             <a className='iconBtn text-white' target="_blank" rel="noreferrer" href='mailto:michaeldegginger@protonmail.com'>
+            <MdEmail size={29} />
             </a>
 
           </button>

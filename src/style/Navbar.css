@@ -4,3 +4,8 @@
     opacity: 100%;
     z-index: 9;
 }
+
+img.logo {
+    height: 150px;
+    width: 150px;
+}
