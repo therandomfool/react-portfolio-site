@@ -7,7 +7,7 @@ div .top {
     text-align: center;
     font-weight: 500;
     display: block !important;
-    height: 469px;
+    height: 429px;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
@@ -21,7 +21,7 @@ div .top {
 }
 
 .card img {
-    height: 250px;
+    height: 200px;
     background-size: cover;
 }
 
@@ -53,7 +53,7 @@ div .top {
 }
 
 .card-body {
-    margin: 0 -35px 0 -35px;
+    margin: 0 -25px 0 -25px;
 }
 
 .card-body ul {
