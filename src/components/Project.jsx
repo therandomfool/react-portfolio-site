@@ -11,6 +11,7 @@ import Email from "../assets/email.gif"
 import Game from "../assets/gamemachine.gif"
 import Icon from "../assets/icon.gif"
 import Tabs from "../assets/tabs.gif"
+import Empire from "../assets/empire.gif"
 
 import { FaGithubAlt } from "react-icons/fa";
 
@@ -84,7 +85,7 @@ const Project = () => {
           <h1>JAVASCRIPT / REACT</h1>
           <div className='card-deck row mt-3'>
             <div className='card border-white'>
-              <a target="_blank" rel="noreferrer" href="https://amazing-snyder-723a73.netlify.app/"><img src={Game} className='card-img-top' alt='...' /></a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/team-final-client"><img src={Empire} className='card-img-top' alt='...' /></a>
 
               <div className='card-body'>
                 <h5 className='card-title'>Project & Team Tracker</h5>
@@ -95,7 +96,7 @@ const Project = () => {
                   <li>Java > JavaScript > React > PostSql</li>
                 </ul>
                 <p className='card-bottom text-white'>
-                  <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Game-Machine'>
+                  <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/team-final-client'>
                     <FaGithubAlt />
                   </a>
                 </p>

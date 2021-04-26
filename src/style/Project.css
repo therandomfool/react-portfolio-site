@@ -1,67 +1,71 @@
+div .top {
+    margin-top: -5%;
+}
 
- 
- div .top {
-     margin-top: -5%;
- }
+.card {
+    background: rgba(0, 0, 0, 0.03) !important;
+    text-align: center;
+    font-weight: 500;
+    display: block !important;
+    height: 469px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
 
- .card {
-     background: rgba(0, 0, 0, 0.03) !important;
-     text-align: center;
-     font-weight: 500;
-     display: block !important;
-     height: 469px;
- }
+.card:hover {
+    background: rgba(0, 0, 0, 0.69) !important;
+    transform: scale(1.069);
+    transition: .33s ease-in-out;
+    border: .69px solid gold !important;
+}
 
- .card:hover {
-     background: rgba(0, 0, 0, 0.69) !important;
-     transform: scale(1.069);
-     transition: .33s ease-in-out;
-     border: .69px solid gold !important;
+.card img {
+    height: 250px;
+    background-size: cover;
+}
 
- }
+.card-bottom {
+    position: absolute;
+    justify-content: flex-end;
+    bottom: -12px;
+    font-size: 20px;
+    left: 10px;
+}
 
- .card img {
-     height: 250px;
-     background-size: cover;
- }
+.card-bottom a {
+    animation: spin-animation 2.314s infinite;
+    display: inline-block;
+    /* transition: all .2s ease-in-out; */
+}
 
- .card-bottom {
-     position: absolute;
-     justify-content: flex-end;
-     bottom: -4px;
-     font-size: 20px;
- }
+@keyframes spin-animation {
+    0% {
+        transform: scale(.7)
+    }
+    100% {
+        transform: scale(1.25)
+    }
+}
 
- .card-bottom a {
-     animation: spin-animation 2.314s infinite;
-     display: inline-block;
-     /* transition: all .2s ease-in-out; */
- }
+.card-bottom a:hover {
+    color: gold !important;
+}
 
- @keyframes spin-animation {
-     0% {
-         transform: scale(.7)
-     }
-     100% {
-         transform: scale(1.25)
-     }
- }
+.card-body {
+    margin: 0 -35px 0 -35px;
+}
 
- .card-bottom a:hover {
-     color: gold !important;
-     
- }
+.card-body ul {
+    text-align: start;
+    font-size: 12px;
+    font-weight: bolder;
+}
 
- .card-body ul {
-     text-align: start;
-     font-size: 12px;
-     font-weight: bolder;
- }
+.mNp {
+    margin: 90px;
+}
 
- .mNp {
-     margin: 90px;
- }
-
- .card-title {
-     font-size: 16px;
- }
+.card-title {
+    font-size: 16px;
+}
