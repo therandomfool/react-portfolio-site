@@ -8,7 +8,7 @@ import Tree from "../assets/tree.gif"
 import Hover from "../assets/3d.gif"
 import Clock from "../assets/clocktok.gif"
 import Email from "../assets/email.gif"
-import Game from "../assets/gamemachine.gif"
+import Port from "../assets/port.gif"
 import Icon from "../assets/icon.gif"
 import Tabs from "../assets/tabs.gif"
 import Empire from "../assets/empire.gif"
@@ -107,10 +107,12 @@ const Project = () => {
 
               <div className='card-body'>
                 <h5 className='card-title'>Icon Background</h5>
-                <p className='card-text'>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>CSS > JavaScript </li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href='https://github.com/therandomfool/Icon-Background-Animation-CSS'>
                     <FaGithubAlt />
@@ -119,14 +121,16 @@ const Project = () => {
               </div>
             </div>
             <div className='card border-white'>
-              <img src={Tabs} className='card-img-top' alt='...' />
+              <a href="https://github.com/therandomfool/react-portfolio-site"><img src={Port} className='card-img-top' alt='...' /></a>
+              
               <div className='card-body'>
                 <h5 className='card-title'>React Personal Portfolio</h5>
-                <p className='card-text'>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer content
-                  than the first to show that equal height action.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>CSS > JavaScript </li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer"
                     href='https://github.com/therandomfool/react-portfolio-site'>
@@ -208,9 +212,12 @@ const Project = () => {
 
               <div className='card-body'>
                 <h5 className='card-title'>3D image hover</h5>
-                <p className='card-text'>
-                  3D cards with 360 rotation.  Image is visable from back and front, with text placement on the back.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>CSS > JavaScript </li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href="https://github.com/therandomfool/image-Hoover-Effects-3D-CSS">
                     <FaGithubAlt />
@@ -223,10 +230,12 @@ const Project = () => {
 
               <div className='card-body'>
                 <h5 className='card-title'>Glassmorphism Clock</h5>
-                <p className='card-text'>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>CSS > JavaScript </li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href="https://github.com/therandomfool/CSS-Glassmorphism-Clock">
                     <FaGithubAlt />
@@ -239,11 +248,12 @@ const Project = () => {
 
               <div className='card-body'>
                 <h5 className='card-title'>Subscribe Button Animation</h5>
-                <p className='card-text'>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer content
-                  than the first to show that equal height action.
-              </p>
+                <ul>
+                  <li>Dashboard for viewing Teams and Projects</li>
+                  <li>Full CRUD implementation PostgreSql DB</li>
+                  <li>Spring Data JPA Entities</li>
+                  <li>CSS > JavaScript </li>
+                </ul>
                 <p className='card-bottom text-white'>
                   <a className='text-white' target="_blank" rel="noreferrer" href="https://github.com/therandomfool/Subscribe-To-Newsletter-Button-CSS">
                     <FaGithubAlt />

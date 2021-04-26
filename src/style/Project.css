@@ -11,6 +11,8 @@ div .top {
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+    margin: 0 30px 0 30px;
+    
 }
 
 .card:hover {
@@ -21,8 +23,8 @@ div .top {
 }
 
 .card img {
-    height: 200px;
-    background-size: cover;
+    height: 175px;
+    background-size:auto;
 }
 
 .card-bottom {

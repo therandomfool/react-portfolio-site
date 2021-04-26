@@ -18,7 +18,7 @@ const About = () => {
     <div className='top container-fluid'>
       <div className='row'>
         <div className='aboutMe col-8 mx-5 mt-5'>
-          <h3>Michael Degginger's Story <span>so far...</span></h3>
+          <h3 className='my-4'>Michael Degginger's Story <span>so far...</span></h3>
           <img src={MD} alt="" />
           <div id='readOpac'>
             <h5>Growing up in the Seattle area, I was fortunate that it immersed me in the burgeoning technology wave that has propelled our culture forward. Unlike most of my peers who ended up working at Microsoft, Starbucks or Amazon, my familial love of food led me into the world of Restaurants and Hospitality.

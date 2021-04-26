@@ -1,7 +1,9 @@
 .behave{
     margin-top: 69px;
     display: flex;
-    flex-direction: row;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
 }
 
 .behave p{
