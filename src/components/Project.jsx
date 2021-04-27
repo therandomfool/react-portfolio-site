@@ -18,7 +18,7 @@ import { FaGithubAlt } from "react-icons/fa";
 
 const Project = () => {
   return (
-    <>
+    <div className='container'>
       <div className='top container-fluid' >
         <div className="mNp">
           <h1>JAVA</h1>
@@ -257,7 +257,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

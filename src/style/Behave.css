@@ -1,79 +1,93 @@
-.behave{
+.behave {
     margin-top: 69px;
-    
+    display: block;
+    align-items: center;
     text-align: center;
 }
 
-.behave p{
+.left{
+    margin-left: 40px;
+}
+
+.behave p {
     color: ghostwhite;
     font-weight: 900;
     font-size: 29px;
 }
 
 .behave img {
-    
     border-radius: 50%;
     width: 100px;
     height: 100px;
-   
 }
 
-.behave img{
-        animation: pulse-animation 4s infinite;
-        display: inline-block; 
+.behave img {
+    animation: pulse-animation 4s infinite;
+    display: inline-block;
 }
-   
+
 @keyframes pulse-animation {
-        0% {
-            border: 2.3px inset green;
-        }
-        30%{
-            border: 2.3px inset red;
-        }
-        50%{
-            border: 2.3px inset gold;
-        }
-        80%{   
-            border: 2.3px inset blue;
-        }
-        100% {
-            border: 2.3px inset orange;
-
-        }
+    0% {
+        border: 2.3px inset green;
     }
+    30% {
+        border: 2.3px inset red;
+    }
+    50% {
+        border: 2.3px inset gold;
+    }
+    80% {
+        border: 2.3px inset blue;
+    }
+    100% {
+        border: 2.3px inset orange;
+    }
+}
 
-.behave p{
-        animation: text-animation 9s infinite;
-        display: inline-block; 
+.behave p {
+    animation: text-animation 9s infinite;
+    display: inline-block;
 }
 
 @keyframes text-animation {
     0% {
         color: green !important;
     }
-    30%{
-        color: red ;
+    30% {
+        color: red;
     }
-    50%{
-        color: gold ;
+    50% {
+        color: gold;
     }
-    80%{   
-        color: blue ;
+    80% {
+        color: blue;
     }
     100% {
-        color: ghostwhite ;
-
+        color: ghostwhite;
     }
 }
 
-
-.bRow1{
+.bRow1 {
     display: block;
     margin: auto;
     text-decoration: none;
 }
-.bRow2{
+
+.bRow2 {
     display: block;
     margin: auto;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .behave {
+        margin: 0;
+        padding: 0;
+        display: block;
+        margin: auto;
+    }
+
+    .left{
+        margin-left: 0;
+    }
 }

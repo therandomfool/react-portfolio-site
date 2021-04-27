@@ -12,6 +12,7 @@ div .top {
     word-wrap: break-word;
     hyphens: auto;
     margin: 0 30px 0 30px;
+    max-width: 325px;
 }
 
 .card:hover {
