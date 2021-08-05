@@ -1,7 +1,7 @@
 
 import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { IoBook, IoRestaurantSharp } from "react-icons/io5";
+import { IoBook } from "react-icons/io5";
 
 
 
