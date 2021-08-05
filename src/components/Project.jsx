@@ -10,7 +10,6 @@ import Clock from "../assets/clocktok.gif"
 import Email from "../assets/email.gif"
 import Port from "../assets/port.gif"
 import Icon from "../assets/icon.gif"
-import Tabs from "../assets/tabs.gif"
 import Empire from "../assets/empire.gif"
 
 import { FaGithubAlt } from "react-icons/fa";
@@ -24,7 +23,7 @@ const Project = () => {
           <h1>JAVA</h1>
           <div className='card-deck row mt-3'>
             <div className='card border-white'>
-              <a target="_blank" rel="noreferrer" href="http://18.224.85.94:8080/BruShr/"><img src={Brushr} className='card-img-top' alt='...' /></a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/MidtermProject"><img src={Brushr} className='card-img-top' alt='...' /></a>
 
               <div className='card-body'>
                 <h5 className='card-title'>Brushr Homebrewer Site</h5>
@@ -43,7 +42,7 @@ const Project = () => {
               </div>
             </div>
             <div className='card border-white'>
-              <a target="_blank" rel="noreferrer" href="http://18.224.85.94:8080/CampFree"><img src={campFree} className='card-img-top' alt='...' /></a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/FinalProject"><img src={campFree} className='card-img-top' alt='...' /></a>
 
               <div className='card-body'>
                 <h5 className='card-title'>CampFree</h5>
@@ -61,7 +60,7 @@ const Project = () => {
               </div>
             </div>
             <div className='card border-white'>
-              <a target="_blank" rel="noreferrer" href="http://18.224.85.94:8080/ReservationTracker"><img src={Reserve} className='card-img-top' alt='...' /></a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/therandomfool/EventTrackerProject"><img src={Reserve} className='card-img-top' alt='...' /></a>
               <div className='card-body'>
                 <h5 className='card-title'>Restaurant Reservation App</h5>
                 <ul>
